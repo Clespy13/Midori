@@ -372,4 +372,3 @@ class Music(commands.Cog):
 def setup(bot):
     bot.add_cog(Music(bot))
     bot.loop.create_task(Music.audio_player_task())
-    # bot.loop.create_task(Music.timer())
